@@ -108,7 +108,6 @@ parcelRequire = (function (modules, cache, entry, globalName) {
     }
   }
 
-
   // Override the current require with this new one
   parcelRequire = newRequire;
 
@@ -391,4 +390,3 @@ function hmrAcceptRun(bundle, id) {
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/index.js.map
-
