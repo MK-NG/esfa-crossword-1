@@ -1,24 +1,23 @@
 {
-  "name": "esfa-crossword-1",
-  "version": "1.0.0",
+  "name": "crossword",
+  "version": "1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MK-NG/esfa-crossword-1.git"
-  },
+  "repository": "git+https://github.com/MK-NG/esfa-crossword-1.git",
   "keywords": [],
-  "author": "",
+  "author": "MK-NG <michaeljfknight@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MK-NG/esfa-crossword-1/issues"
   },
   "homepage": "https://github.com/MK-NG/esfa-crossword-1#readme",
   "devDependencies": {
-    "sass": "^1.34.0"
+    "node-sass": "^6.0.0"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.5"
