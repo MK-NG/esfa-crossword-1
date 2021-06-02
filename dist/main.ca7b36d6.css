@@ -1291,6 +1291,7 @@ body {
   position: absolute;
   z-index: 1000;
   top: 30%;
+  pointer-events: none;
   left: 2%;
   font-size: 100px;
   line-height: 1.2;
