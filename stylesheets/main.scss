@@ -23,7 +23,7 @@ $color-focus-item: #FFFF74;
   position: absolute;
   z-index: 1;
   background: transparent;
-  border: 1px solid #000000;
+  border: 1px solid #260859;
   width: ($crossword-item-size * $crossword-column-count);
   height: ($crossword-item-size * $crossword-row-count);
   display: grid;
@@ -33,7 +33,7 @@ $color-focus-item: #FFFF74;
   margin: 0 auto;
 }
 .crossword-board__item {
-  border: 1px solid #000000;
+  border: 1px solid #260859;
   background: transparent;
   position: relative;
   z-index: 100;
@@ -45,14 +45,15 @@ $color-focus-item: #FFFF74;
   &:active,
   &:focus {
     background: $color-focus-item;
-    border: 1px solid #000000;
-    outline: 1px solid #000000;
+    border: 1px solid #260859;
+    outline: 1px solid #260859
   }
 }
+
 .crossword-board__item--blank {
-  background: #000000;
-  border: 1px solid #000000;
-  outline: 1px solid #000000;
+  background: #260859;
+  border: 1px solid #260859;
+  outline: 1px solid #260859;
 }
 
 .crossword-board--labels {
@@ -1499,9 +1500,11 @@ background: $color-valid-item;
 .checkbox {
 cursor: pointer;
 z-index: 1;
-top: -12px;
-left: -6px;
+top: 20%;
+left: 0px;
 width: 44px;
 height: 44px;
 margin: -10px;
 }
+
+
